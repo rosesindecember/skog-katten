@@ -1,5 +1,6 @@
 .navgrad {
   background:linear-gradient(120deg,#f19643,#e3cf21);
+  font-size:22px;
 }
 
 .rounded {
@@ -11,7 +12,8 @@
 }
 
 .imgmain {
-  max-height:350px;
+  max-height:360px;
+  color:rgba(33,37,41,0);
 }
 
 .page_heading {
@@ -35,5 +37,23 @@ body {
   background-size:cover;
   background-position:center;
   font-family:'Advent Pro', sans-serif;
+  background-repeat:repeat;
+}
+
+@media (max-width: 767px) {
+  body {
+    background-image:url("../../assets/img/AdobeStock_44115370.jpg");
+    background-attachment:fixed;
+    background-size:cover;
+    background-position:center;
+    font-family:'Advent Pro', sans-serif;
+    background-repeat:repeat-y;
+  }
+}
+
+.intropara {
+  background-color:rgba(255,255,255,0.7);
+  border-radius:1rem;
+  padding:10px;
 }
 

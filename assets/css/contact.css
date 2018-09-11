@@ -5,7 +5,7 @@
 .register-photo .image-holder {
   display:table-cell;
   width:auto;
-  background:url(../../assets/img/AdobeStock_53119595.jpeg);
+  background:url(AdobeStock_53119595.jpeg);
   background-size:contain;
   background-color:white;
   background-repeat:no-repeat;
